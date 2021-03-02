@@ -1,0 +1,29 @@
+main{
+  display:grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+.game-board{
+  display: flex;
+  justify-content: center;
+}
+
+.game-board-child{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.winner-text{
+  color: red;
+}
+
+app-square{
+  border: 1px gray solid;
+  height: 200px;
+  background-color:blue;
+}
+button{
+  margin: 0 auto;
+}
